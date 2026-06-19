@@ -27,17 +27,8 @@ npm run dev
 ## Tech Stack
 
 - **React 18** + **TypeScript**
-- **Tailwind CSS** — pink, peach & cream palette
-- **Framer Motion** — page & component animations
-- **Recharts** — admin revenue & analytics charts
-- **React Router v6** — client-side routing
-
-## Color Palette
-
-| Name | Hex |
-|------|-----|
-| Rose | `#FF94AF` |
-| Peach | `#FFAA88` |
-| Cream | `#FFF8F0` |
-| Blush | `#FFD0DC` |
-| Deep Brown | `#3D1C1C` |
+- **Tailwind CSS**  
+- **Framer Motion** 
+- **Recharts**  
+- **React Router v6** 
+ 
