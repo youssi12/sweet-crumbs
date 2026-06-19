@@ -76,13 +76,16 @@ export const ProductDetailPage: React.FC = () => {
               <div className="flex gap-3">
                 {product.images.map((img, i) => (
                   <button
-                    key={i}
-                    onClick={() => setSelectedImage(i)}
-                    className={`rounded-xl overflow-hidden w-20 h-20 transition-all duration-200 ${selectedImage === i ? 'ring-2 scale-105' : 'opacity-60 hover:opacity-100'}`}
-                    style={{ ringColor: '#FF94AF' }}
-                  >
-                    <img src={img} alt="" className="w-full h-full object-cover" />
-                  </button>
+  key={i}
+  onClick={() => setSelectedImage(i)}
+  className={`rounded-xl overflow-hidden w-20 h-20 transition-all duration-200 ${
+    selectedImage === i
+      ? 'ring-2 ring-pink-400 scale-105'
+      : 'opacity-60 hover:opacity-100'
+           }`}
+               >
+               <img src={img} alt="" className="w-full h-full object-cover" />
+       </button> 
                 ))}
               </div>
             )}
