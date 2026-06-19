@@ -5,7 +5,6 @@ A modern bakery e-commerce frontend built with React, TypeScript, and Tailwind C
 ## Quick Start
 
 ```bash
-unzip sweet-crumbs.zip
 cd sweet-crumbs
 npm install
 npm run dev
